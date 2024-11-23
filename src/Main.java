@@ -4,24 +4,24 @@ public class Main {
 
         //Задание 1.
 
-        int clientOS = 0;
-        if (clientOS == 1) {
-            System.out.println(" Установите версию приложения для Android по ссылке ");
-        } else if (clientOS == 0) {
-            System.out.println(" Установите версию приложения для iOS по ссылке ");
+        int clientOS1 = 0;
+        if (clientOS1 == 1) {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        } else if (clientOS1 == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
         }
 
         //Задание 2.
 
-        int clientOSik = 0;
+        int clientOS2 = 0;
         int clientDeviceYear = 2014;
-        if (clientOSik == 0 && clientDeviceYear >= 2015) {
+        if (clientOS2 == 0 && clientDeviceYear >= 2015) {
             System.out.println(" Установите версию приложения для iOS по ссылке ");
-        } else if (clientOSik == 0 && clientDeviceYear < 2015) {
+        } else if (clientOS2 == 0 && clientDeviceYear < 2015) {
             System.out.println(" Установите облегченную версию приложения для iOS по ссылке ");
-        } else if (clientOSik == 1 && clientDeviceYear >= 2015) {
+        } else if (clientOS2 == 1 && clientDeviceYear >= 2015) {
             System.out.println(" Установите версию приложения для Android по ссылке ");
-        } else if (clientOSik == 1 && clientDeviceYear < 2015) {
+        } else if (clientOS2 == 1 && clientDeviceYear < 2015) {
             System.out.println(" Установите облегченную версию приложения для Android по ссылке ");
 
         }
@@ -39,12 +39,12 @@ public class Main {
 
         //Задание 4.
 
-        int deliveryDistanse = 95;
-        if (deliveryDistanse <= 20) {
+        int deliveryDistance = 95;
+        if (deliveryDistance <= 20) {
             System.out.println("Потребуется 1 день.");
-        } else if (deliveryDistanse <= 60) {
+        } else if (deliveryDistance <= 60) {
             System.out.println("Потребуется 2 дня.");
-        } else if (deliveryDistanse <= 100) {
+        } else if (deliveryDistance <= 100) {
             System.out.println("Потребуется 3 дня.");
         } else {
             System.out.println("Доставки нет.");
